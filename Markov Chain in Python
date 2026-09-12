@@ -1,6 +1,6 @@
 import random
 
-# Function to build the Markov chain
+# Function to build the Markov Chain
 def build_markov_chain(text, n=2):
     words = text.split()
     chain = {}
@@ -27,7 +27,7 @@ def generate_text(chain, length=10):
     
     return ' '.join(result)
 
-# Your source text
+# Source text example
 source_text = "I love pizza. I love burgers. I love coding."
 
 # Build the chain
